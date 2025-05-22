@@ -62,6 +62,7 @@ The implementation uses a Deep Q-Network (DQN) approach, where:
   - **placeholder.md** - Placeholder file
 - **LICENSE** - MIT License
 - **README.md** - Project documentation
+- **requirements.txt** - Python package dependencies
 
 ## Implementation Details
 
@@ -103,8 +104,8 @@ The repository includes sample outputs showing:
 git clone https://github.com/desai-sashwat/tic-tac-toe-RL.git
 cd tic-tac-toe-RL
 
-# Install required packages
-pip install numpy tensorflow matplotlib
+# Install required packages from requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -114,6 +115,7 @@ The main implementation is in the Jupyter notebook `code/dqn_final.ipynb`. To us
 ```bash
 jupyter notebook code/dqn_final.ipynb
 ```
+
 2. Run the cells sequentially to:
    - Define the Tic-Tac-Toe environment
    - Implement the DQN agent

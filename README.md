@@ -106,3 +106,28 @@ cd tic-tac-toe-RL
 # Install required packages
 pip install numpy tensorflow matplotlib
 ```
+
+## Usage
+The main implementation is in the Jupyter notebook `code/dqn_final.ipynb`. To use:
+
+1. Open the notebook in Jupyter:
+```bash
+jupyter notebook code/dqn_final.ipynb
+```
+2. Run the cells sequentially to:
+   - Define the Tic-Tac-Toe environment
+   - Implement the DQN agent
+   - Train the agent
+   - Evaluate the agent's performance
+   - Play against the trained agent
+
+## Future Work
+Potential enhancements for this project include:
+- Implementing additional reinforcement learning algorithms (e.g., PPO, A3C)
+- Extending to larger board sizes (4x4, 5x5)
+- Developing a web-based interface for human vs. agent gameplay
+- Adding support for variants of Tic-Tac-Toe (e.g., Ultimate Tic-Tac-Toe)
+- Comparing performance with other machine learning approaches
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
